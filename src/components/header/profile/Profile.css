@@ -1,0 +1,139 @@
+.profile-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    min-height: fit-content;
+    margin-top: 6rem;
+}
+
+.profile-parent {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.detail-name {
+    font-size: 24px;
+}
+
+.detail-role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+.detail-role h1 {
+    font-size: 70px;
+}
+
+.primary-text {
+    font-size: 1rem;
+}
+.name-highlight {
+    color: tomato;
+    font-size: 1.8rem;
+}
+
+.contact .btn {
+    margin: 20px 30px 20px 0px;
+    color: white;
+    background: tomato;
+}
+
+.contact .btn:hover {
+    color: black;
+    background: white;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px grey;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.picture-background {
+    height: 92%;
+    width: 92%;
+    background-image: url('../../../assets/Home/profilephoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.picture-background:hover {
+    transform: scale(1.08);
+    transition: 1s ease-in;
+}
+
+.social-icon {
+    display: flex;
+    gap: 0.9rem;
+}
+
+.social-icon a {
+    color: aliceblue;
+}
+
+@media screen and (max-width: 1110px) {
+    .profile-picture {
+        margin: 0 0px 0 80px;
+    }
+
+    .detail-name {
+        font-size: 20px;
+    }
+
+    .detail-role  .primary-text{
+        font-size: 12px;
+    }
+
+    .contact .btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .profile-picture {
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .profile-component {
+        margin-top: 0rem
+    }
+
+    .profile-picture {
+        margin: 0 !important;
+    }
+
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-details {
+        margin: 25px 0 0;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .detail-role h1 {
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,9 @@
+.home-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 670px;
+    background-image: url('../../assets/Home/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

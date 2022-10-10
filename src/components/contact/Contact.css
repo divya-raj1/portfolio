@@ -1,0 +1,58 @@
+#contact{
+    margin-top: 10rem;
+}
+
+#contact .btn:hover , #contact .btn{
+    background: tomato;
+}
+
+.contact-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#contact h2 {
+    color: var(--color-bg);
+    font-weight: 600;
+}
+
+#contact > h5 {
+    color: var(--color-bg);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+#contact > h5::after,
+#contact > h5::before {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 15%;
+}
+#contact > h5::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+#contact > h5::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+    background: transparent;
+    border: 1px solid  var(--color-bg);
+    resize: none;
+}

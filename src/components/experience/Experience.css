@@ -1,0 +1,105 @@
+#experience{
+    margin-top: 10rem;
+}
+
+.experience-container {
+    margin-top: 2rem;
+}
+#experience h2 {
+    color: var(--color-bg);
+    font-weight: 600;
+}
+
+#experience > h5 {
+    color: var(--color-bg);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+#experience > h5::after,
+#experience > h5::before {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 15%;
+}
+#experience > h5::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+#experience > h5::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.experience-heading{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-heading .btn:hover , .experience-heading  .btn{
+    background: tomato;
+    color: var(--color-white);
+    /* cursor: none; */
+    padding: 0.4rem;
+}
+
+.experience-heading  h5{
+    color: tomato;
+}
+
+.experience-worked li {
+    font-size: 0.9rem;
+}
+
+.experience-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem 0 2.6rem;
+    width: fit-content;
+}
+
+.experience-skills  .btn{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+    color: var(--color-white);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.experience-skills .btn:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px)  {
+
+    #experience {
+        margin-top: 12rem;
+    }
+    .experience-container li {
+        margin: 0.6rem 0;
+    }
+
+    .experience-heading {
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-skills {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    #experience {
+        margin-top: 12rem;
+    }
+}

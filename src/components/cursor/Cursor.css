@@ -1,0 +1,24 @@
+.cursor-dot,
+.cursor-dot-follow {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 3;
+}
+
+.cursor-dot {
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-primary);
+}
+
+.cursor-dot-follow {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+}

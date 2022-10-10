@@ -1,0 +1,98 @@
+#about .btn:hover , #about .btn{
+    background: tomato;
+}
+
+#about h2 {
+    color: var(--color-bg);
+    font-weight: 600;
+}
+
+#about > h5 {
+    color: var(--color-bg);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+#about > h5::after,
+#about > h5::before {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 15%;
+}
+#about > h5::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+#about > h5::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.about-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0 2.6rem;
+}
+
+.about-card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: var(--color-white);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.about-card:hover {
+    cursor: default;
+    transform: scale(1.08);
+}
+
+.about-icon {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-card h5 {
+    font-size: 0.95rem;
+}
+
+.about-card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+@media screen and (max-width: 1024px)  {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-container p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    .about-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about-container p {
+        margin: 1.5rem 0;
+    }
+}
