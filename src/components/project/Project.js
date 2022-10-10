@@ -12,8 +12,8 @@ const data = [
     id: 1,
     image: Project1,
     title: 'My Portfolio',
-    github: 'github link of that particulr project',
-    demo: 'demo lilnk of that particular project'
+    github: '#',
+    demo: '#'
   },
   {
     id: 2,
