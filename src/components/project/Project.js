@@ -53,7 +53,7 @@ export default function Portfolio() {
               </div>
               <h3>{title}</h3>
               <div className="project-item-cta">
-                <a href={github} className="btn" target={id == 1 ? "" : "_blank"}>Github</a>
+                <a href={github} className="btn" target="_blank">Github</a>
                 <a href={demo} className="btn btn-primary" target={id == 1 ? "" : "_blank"}>Demo</a>
               </div>
             </article>
