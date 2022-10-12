@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: Project1,
     title: 'My Portfolio',
-    github: '#',
+    github: 'https://github.com/divya-raj1/portfolio',
     demo: '#'
   },
   {
