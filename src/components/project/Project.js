@@ -1,10 +1,11 @@
 import React from 'react';
 import './Project.css';
 import Project1 from '../../assets/Home/portfolio.png';
-import Project4 from '../../assets/Home/react-api-image.png';
-import Project5 from '../../assets/Home/priceTracker.png';
+import Project5 from '../../assets/Home/react-api-image.png';
+import Project6 from '../../assets/Home/priceTracker.png';
 import Project2 from '../../assets/Home/playstore.png';
 import Project3 from '../../assets/Home/ReactCRUD.png';
+import Project4 from '../../assets/Home/react-vis.png';
 
 
 //array of images
@@ -33,13 +34,20 @@ const data = [
   {
     id: 4,
     image: Project4,
+    title: 'React Graph',
+    github: 'https://github.com/divya-raj1/react-page',
+    demo: 'https://divya-raj1.github.io/react-page/'
+  },
+  {
+    id: 5,
+    image: Project5,
     title: 'Responsive React Webpage',
     github: 'https://github.com/divya-raj1/react-webpage',
     demo: 'https://divya-raj1.github.io/react-webpage/'
   },
   {
-    id: 5,
-    image: Project5,
+    id: 6,
+    image: Project6,
     title: 'Simple price tracker',
     github: 'https://github.com/divya-raj1/Price-Tracker',
     demo: 'https://divya-raj1.github.io/Price-Tracker/'
