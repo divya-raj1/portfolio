@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4ca7aafc.css",
-    "main.js": "/portfolio/static/js/main.1333b821.js",
+    "main.js": "/portfolio/static/js/main.f81a130e.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/profilephoto.jpg": "/portfolio/static/media/profilephoto.6cc422f87456ac42a544.jpg",
     "static/media/playstore.png": "/portfolio/static/media/playstore.8f2d856c3fbb2e1165de.png",
     "static/media/react-vis.png": "/portfolio/static/media/react-vis.7249c9ee86429368ba34.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.d6e7b7885fbd197867d8.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.1b6f4a919170f112d2b7.pdf",
     "static/media/react-api-image.png": "/portfolio/static/media/react-api-image.4af730f3e4cf1284c2fc.png",
     "static/media/ReactCRUD.png": "/portfolio/static/media/ReactCRUD.0d05cb62c911cbb087bb.png",
     "static/media/priceTracker.png": "/portfolio/static/media/priceTracker.7be9f95d248ec37f2f37.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.733478b8e803b5995dad.png",
     "index.html": "/portfolio/index.html",
     "main.4ca7aafc.css.map": "/portfolio/static/css/main.4ca7aafc.css.map",
-    "main.1333b821.js.map": "/portfolio/static/js/main.1333b821.js.map",
+    "main.f81a130e.js.map": "/portfolio/static/js/main.f81a130e.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ca7aafc.css",
-    "static/js/main.1333b821.js"
+    "static/js/main.f81a130e.js"
   ]
 }
