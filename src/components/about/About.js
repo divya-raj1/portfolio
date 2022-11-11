@@ -8,7 +8,7 @@ export default function About() {
       <h2>About Me</h2>
       <h5>Myself</h5>
       <div className="container about-container">
-        <p>Hello! I’m Divya. I'm a result-oriented, passionate Front End Developer and I enjoy developing Front end user interfaces for web and exploring new technologies.</p>
+        <p>Hello! I’m Divya. I'm a result-oriented, passionate Front End Developer and I enjoy developing Front end user interfaces for websites and exploring new technologies.</p>
           <div className="about-cards">
             <a className="about-card">
               <i className="fa fa-cogs about-icon"></i>
